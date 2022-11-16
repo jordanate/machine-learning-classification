@@ -46,7 +46,7 @@ We have 4 false positives, 46 true positives, 276 false positives, and 680 true 
 ### ROC-AUC (Area Under the Curve)
 ![roc-auc.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/roc-auc.png)
 
-The AUC is .85 which is good in terms of the goals of our project. In other words, we maximized the true positive rate (recall) as much as possible while also keeping our false positive rate at an acceptable level.
+The AUC is 0.85 which is good in terms of the goals of our project. In other words, we maximized the true positive rate (recall) as much as possible while also keeping our false positive rate at an acceptable level.
 
 ## Conclusions
 
