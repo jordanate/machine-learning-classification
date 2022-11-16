@@ -31,7 +31,8 @@ The following models were used on the testing set:
 5. Tuned XGBoost
 6. Gaussian Naive Bayes
 
-![summary_statistics.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/summary_statistics.png)
+<!--[summary_statistics.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/summary_statistics.png)-->
+<img src="images/summary_statistics.png" width = '620' height = '275'/> 
 
 ## Evaluation
 
