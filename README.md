@@ -18,7 +18,7 @@ After doing some data cleaning, We perform a 80%-20% Train-Test Split on the dat
 
 Recall was the main metric used to determine the accuracy of our model due to the fact that we are interested in using our model to detect stroke risk, and therefore, a false negative is more costly than a false positive.
 
-False Negatives are individiauls who were said to not have had a stroke but did.
+False Negatives are individauls who were said to not have had a stroke but did.
 
 False Positives are individuals who were said to have had a stroke but did not.
 
@@ -43,7 +43,7 @@ Since our model would be a preliminary screening, part of the logic behind this 
 ### Confusion Matrix
 ![confusion_matrix.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/confusion_matrix.png)
 
-We have 4 false positives, 46 true positives, 276 false positives, and 680 true negatives from our testing set.
+We have 4 false negatives, 46 true positives, 276 false positives, and 680 true negatives from our testing set.
 
 ### ROC-AUC (Area Under the Curve)
 ![roc-auc.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/roc-auc.png)
