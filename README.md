@@ -2,11 +2,17 @@
 
 ![brain-showing-stroke.jpeg](https://github.com/jordanate/machine-learning-classification/blob/main/images/brain-showing-stroke.jpeg)
 
+**By:** Jordana Tepper, Troy Hendrickson, Viktoria Szontagh
+
 ## Overview
 
+This project analyzes existing data about various individuals - some who have had a stroke and many who have not - and their basic life and health information such as their age, BMI, smoking status, and average glucose levels. We use this data in order to develop a predictive model that can aid a stakeholder, Mount Sinai Hospital in New York, in determining whether or not a patient is at risk for a stroke during surgery. Although this data does not specifically discuss surgeries, an increased risk of stroke in general is likely linked to a risk of stroke during surgery. After utilizing the process of exploratory data analysis, we create several classification models to eventually reach the model with the highest and most appropriate recall.
 
-## Business Understanding
-In a hospital, when people's lives are at risk, it is always important to minimize the risk of misdiagnosing a patient, or in our case misclassifying someone who is at risk of having a stroke during surgery. 
+## Business Problem
+
+Given that, globally, strokes are the 2nd leading cause of death (World Health Organization), and strokes are a common complication of surgery, The Mount Sinai Hospital in New York needs a preliminary screening test to assess a patient's risk of a stroke during surgery and determine if further screening should be done.
+
+Furthermore, in a hospital, when people's lives are at risk, it is crucial to minimize the risk of misdiagnosing a patient, or in our case falsely declaring that a patient is not at risk for a stroke (false negative). Consequently, given our stakeholder, we prioritize limiting the number of false negatives cases and therefore maximizing the true positive rate (recall).
 
 ## Data Understanding
 
