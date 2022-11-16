@@ -31,6 +31,8 @@ The following models were used on the testing set:
 5. Tuned XGBoost
 6. Gaussian Naive Bayes
 
+![summary_statistics.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/summary_statistics.png)
+
 ## Evaluation
 
 ### Why did we chose the Logistic Regression model (recall of 92%) rather than the Gaussian Naive Bayes model (recall of 94%) as our final model?
