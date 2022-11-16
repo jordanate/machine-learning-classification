@@ -1,5 +1,7 @@
 # Phase 3 Machine Learning Classification Project - Stroke Dataset
 
+![brain-showing-stroke.jpeg](https://github.com/jordanate/machine-learning-classification/blob/main/images/brain-showing-stroke.jpeg)
+
 ## Overview
 
 ## Business Understanding
@@ -29,8 +31,6 @@ The following models were used on the testing set:
 
 ## Evaluation
 
-
-
 ### Why did we chose the Logistic Regression model (recall of 92%) rather than the Gaussian Naive Bayes model (recall of 94%) as our final model?
 Although our main priority of this project was to minimize recall, the false positive rate that came with our highest recall outcome was too high for comfort. More specifically, the model that had the best recall was our Gaussian Naive Bayes model with a recall score of 0.94 but a false positive rate of 0.60. In comparison, our Logistic Regression model with the optimal threshold had a recall score of 0.92 with a false positive rate of 0.29.
 
@@ -38,7 +38,17 @@ Therefore, we decided that we are willing to risk a 0.02 difference in our recal
 
 Since our model would be a preliminary screening, part of the logic behind this decision is that we would like to lower the likelihood of causing someone who tests positive for stroke risk but is not actually at such risk (false positive) to have to pay the unnecessary costs that would come with further screening.
 
-## Conclusion
+### Confusion Matrix
+![confusion_matrix.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/confusion_matrix.png)
+
+We have 4 false positives, 46 true positives, 276 false positives, and 680 true negatives from our testing set.
+
+### ROC-AUC (Area Under the Curve)
+![roc-auc.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/roc-auc.png)
+
+The AUC is .85 which is good in terms of the goals of our project. In other words, we maximized the true positive rate (recall) as much as possible while also keeping our false positive rate at an acceptable level.
+
+## Conclusions
 
 ### Limitations
 
