@@ -86,7 +86,7 @@ As the information above is often associated with stroke risk, we would like sec
 ├── data
 ├── images
 ├── .gitignore
-├── Stroke Classification Presentation Slides.pdf
+├── Stroke Classification.pdf
 ├── stroke-machine-learning-classification.ipynb
 └── README.md
 ```
