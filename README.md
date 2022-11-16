@@ -6,7 +6,7 @@
 
 
 ## Business Understanding
-
+In a hospital, when people's lives are at risk, it is always important to minimize the risk of misdiagnosing a patient, or in our case misclassifying someone who is at risk of having a stroke during surgery. 
 
 ## Data Understanding
 
@@ -54,4 +54,30 @@ The AUC is 0.85 which is good in terms of the goals of our project. In other wor
 
 ### Limitations
 
+While our machine learning classification project proved that it can correctly predict people at risk of stroke 94% of the time, we have no information on how effectively a medication can reduce the risk of stroke. In other words, identifying someone as 'at risk' for a stroke doesn't take into account how medication can reduce this risk.
+
+Furthermore, an additional limitation to our project is that there were missing values in the 'bmi' column of our dataset leading us to estimate such values based on the median 'bmi' value. Perhaps the decision to estimate the missing values rather than drop them could have created unrealistic data points.
+
+Another limitation of our project is that we do not know the demographics of the individuals in our dataset or which countries this data comes from due to confidentiality. As mentioned, our stakeholder is Mount Sinai Hospital in New York, but due to this limitation, we cannot guarantee that this data is representative of the US population.
+
 ### Next Steps
+
+Due to limitations in the dataset, we had no information about:
+
+* Cholesterol
+* Family history of stroke
+* Number of strokes
+* Race (i.e., the likelihood of stroke among different races)
+
+As the information above is often associated with stroke risk, we would like secure more data and expand our model to see if the inclusion of such information would better our model's recall as well as reduce the number of false negatives even more.
+
+## Repository Structure
+
+```
+├── data
+├── images
+├── .gitignore
+├── Stroke Classification Presentation Slides.pdf
+├── stroke-machine-learning-classification.ipynb
+└── README.md
+```
