@@ -30,12 +30,13 @@ False Positives are individuals who were said to have had a stroke but did not.
 
 The following models were used on the testing set:
 
-1. Logistic Regression (with and without optimal threshold)
-2. Decision Tree
-3. Tuned KNN (K-Nearest Neighbors)
-4. Tuned Random Forest Classifier
-5. Tuned XGBoost
-6. Gaussian Naive Bayes
+1. Baseline Logistic Regression
+2. Logistic Regression with Optimal Threshold
+3. Decision Tree
+4. Tuned KNN (K-Nearest Neighbors)
+5. Tuned Random Forest Classifier
+6. Tuned XGBoost
+7. Gaussian Naive Bayes
 
 <!--[summary_statistics.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/summary_statistics.png)-->
 <img src="images/summary_statistics.png" width = '620' height = '275'/> 
