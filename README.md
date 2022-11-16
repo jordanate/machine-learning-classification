@@ -50,12 +50,12 @@ Therefore, we decided that we are willing to risk a 0.02 difference in our recal
 Since our model would be a preliminary screening, part of the logic behind this decision is that we would like to lower the likelihood of causing someone who tests positive for stroke risk but is not actually at such risk (false positive) to have to pay the unnecessary costs that would come with further screening.
 
 ### Confusion Matrix
-![confusion_matrix.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/confusion_matrix.png)
+![confusion_matrix_m2.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/confusion_matrix_m2.png)
 
 We have 4 false negatives, 46 true positives, 276 false positives, and 680 true negatives from our testing set.
 
 ### ROC-AUC (Area Under the Curve)
-![roc-auc.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/roc-auc.png)
+![roc-auc_m2.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/roc-auc_m2.png)
 
 The AUC is 0.85 which is good in terms of the goals of our project. In other words, we maximized the true positive rate (recall) as much as possible while also keeping our false positive rate at an acceptable level.
 
