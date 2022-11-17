@@ -38,7 +38,6 @@ The following models were used on the testing set:
 6. Tuned XGBoost
 7. Gaussian Naive Bayes
 
-<!--[summary_statistics.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/summary_statistics.png)-->
 <img src="images/summary_statistics.png" width = '620' height = '275'/> 
 
 ## Evaluation
@@ -49,6 +48,15 @@ Although our main priority of this project was to minimize recall, the false pos
 Therefore, we decided that we are willing to risk a 0.02 difference in our recall for the sake of having a false positive rate that is more than half the size of that of the model with the best recall score.
 
 Since our model would be a preliminary screening, part of the logic behind this decision is that we would like to lower the likelihood of causing someone who tests positive for stroke risk but is not actually at such risk (false positive) to have to pay the unnecessary costs that would come with further screening.
+
+### More on Logistic Regression
+While complex models often result in the best outcomes, this was not the case for us. Instead, our best results were produced by one of the simplest and straightforward models in our project: Logistic Regression. This is likely due to the fact Logistic Regression models tend to perform well when the target variable is naturally dichotomous, which was the case in our dataset: no stroke ('0') or stroke ('1'). Another factor that contributes to the effectiveness of Logistic Regression is when there is little to no multicollinearity between the independent variables. As seen from the correlation table below, our predictor variables were not highly correlated one another based on the assumption that a Pearson correlation coefficient of 0.7 or higher indicates multicollinearity. Therefore, we can say that our dataset meets this condition of Logistic Regression.
+
+All in all, one can say that for simple problems have simple solutions.
+
+#### Correlation Coefficients with Values of 0.7 or higher:
+
+<img src="images/multicollinearity.png" width = '450' height = '150'/> 
 
 ### Confusion Matrix
 ![confusion_matrix_m2.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/confusion_matrix_m2.png)
