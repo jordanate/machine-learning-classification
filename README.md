@@ -31,7 +31,7 @@ False Positives are individuals who were said to have had a stroke but did not.
 The following models were used on the testing set:
 
 1. Baseline Logistic Regression
-2. Logistic Regression with Optimal Threshold
+2. **Logistic Regression with Optimal Threshold - Final Model (Threshold: 0.446014)**
 3. Decision Tree
 4. Tuned KNN (K-Nearest Neighbors)
 5. Tuned Random Forest Classifier
