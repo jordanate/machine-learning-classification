@@ -37,9 +37,9 @@ The following models were used on the testing set:
 5. Tuned Random Forest Classifier
 6. Tuned XGBoost
 7. Gaussian Naive Bayes
-
-<img src="images/summary_statistics.png" width = '620' height = '275'/> 
-
+<p align="center">
+   <img src="images/summary_statistics.png" width = '620' height = '275'/> 
+<p/>
 ## Evaluation
 
 ### Why did we chose the Logistic Regression model (recall of 92%) rather than the Gaussian Naive Bayes model (recall of 94%) as our final model?
@@ -60,13 +60,22 @@ All in all, one can say that for simple problems have simple solutions.
 </p>
 
 ### Confusion Matrix
-![confusion_matrix_m2.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/confusion_matrix_m2.png)
+<p align = 'center'>
+   <img width = '690' height = '500' src="https://github.com/jordanate/machine-learning-classification/blob/main/images/confusion_matrix_m2.png">
+</p>
 
 We have 4 false negatives, 46 true positives, 276 false positives, and 680 true negatives from our testing set.
 
 ### ROC-AUC (Area Under the Curve)
-![roc-auc_m2.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/roc-auc_m2.png) 
-![optimal_thresh.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/optimal_thresh.png)
+<p align = 'center'>
+  <img width = '760' height = '500' src="https://github.com/jordanate/machine-learning-classification/blob/main/images/optimal_thresh.png"> 
+</p>
+
+The optimal True Postive Rate and False Positive Rate are denoted by the red dot on the graph.
+
+<p align = 'center'>
+  <img width = '700' height = '500' src="https://github.com/jordanate/machine-learning-classification/blob/main/images/roc-auc_m2.png">
+</p>
 
 The AUC is 0.85 which is good in terms of the goals of our project. In other words, we maximized the true positive rate (recall) as much as possible while also keeping our false positive rate at an acceptable level.
 
