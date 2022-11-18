@@ -24,9 +24,7 @@ After doing some data cleaning, We perform an 80%-20% Train-Test Split on the da
 
 Recall was the main metric used to determine the accuracy of our model due to the fact that we are interested in using our model to detect stroke risk, and therefore, a false negative is more costly than a false positive.
 
-False Negatives are individuals who were said not to have had a stroke but did.
-
-False Positives are individuals who were said to have had a stroke but did not.
+In terms of our dataset, false negatives are cases where an individual is said not to have had a stroke but did, and false positives are cases where an individual is said to have had a stroke but did not.
 
 The following models were used on the testing set:
 
