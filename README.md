@@ -26,6 +26,8 @@ Recall was the main metric used to determine the accuracy of our model due to th
 
 In terms of our dataset, false negatives are cases where an individual is said not to have had a stroke but did, and false positives are cases where an individual is said to have had a stroke but did not.
 
+In terms of our business problem, false negatives are cases where an individual is said not to be at risk for a stroke during surgery but is, and false positives are cases where an individual is said to be at risk for a stroke during surgery but is not.
+
 The following models were used on the testing set:
 
 1. Baseline Logistic Regression
