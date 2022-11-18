@@ -20,7 +20,7 @@ The data that we use for our project comes from a dataset from Kaggle titled 'St
 
 ## Modeling
 
-After doing some data cleaning, We perform an 80%-20% Train-Test Split on the data with a history of stroke as the target variable and all other variables as the predictors. Next, We create several classification models.
+After doing some data cleaning, We perform an 80%-20% Train-Test Split on the data with a history of stroke as the target variable and all other variables as the predictors. Next, we create several classification models.
 
 Recall was the main metric used to determine the accuracy of our model due to the fact that we are interested in using our model to detect stroke risk, and therefore, a false negative is more costly than a false positive.
 
