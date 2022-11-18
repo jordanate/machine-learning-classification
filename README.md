@@ -31,7 +31,7 @@ False Positives are individuals who were said to have had a stroke but did not.
 The following models were used on the testing set:
 
 1. Baseline Logistic Regression
-2. **Logistic Regression with Optimal Threshold - Final Model (Threshold: 0.446014)**
+2. **Logistic Regression with Optimal Threshold - Final Model (Threshold: 0.446)**
 3. Decision Tree
 4. Tuned KNN (K-Nearest Neighbors)
 5. Tuned Random Forest Classifier
@@ -40,6 +40,7 @@ The following models were used on the testing set:
 <p align="center">
    <img src="images/summary_statistics.png" width = '620' height = '275'/> 
 <p/>
+
 ## Evaluation
 
 ### Why did we chose the Logistic Regression model (recall of 92%) rather than the Gaussian Naive Bayes model (recall of 94%) as our final model?
@@ -71,7 +72,7 @@ We have 4 false negatives, 46 true positives, 276 false positives, and 680 true 
   <img width = '760' height = '500' src="https://github.com/jordanate/machine-learning-classification/blob/main/images/optimal_thresh.png"> 
 </p>
 
-The optimal True Postive Rate and False Positive Rate are denoted by the red dot on the graph.
+The optimal True Positive Rate and False Positive Rate are denoted by the red dot on the graph, which are provided by the optimal threshold of ~0.446.
 
 <p align = 'center'>
   <img width = '700' height = '500' src="https://github.com/jordanate/machine-learning-classification/blob/main/images/roc-auc_m2.png">
@@ -98,7 +99,7 @@ Due to limitations in the dataset, we had no information about:
 * Number of strokes
 * Race (i.e., the likelihood of stroke among different races)
 
-As the information above is often associated with stroke risk, we would like secure more data and expand our model to see if the inclusion of such information would better our model's recall as well as reduce the number of false negatives even more.
+As the information above is often associated with stroke risk, we would like to secure more data and expand our model to see if the inclusion of such information would better our model's recall as well as reduce the number of false negatives even more.
 
 ## Repository Structure
 
