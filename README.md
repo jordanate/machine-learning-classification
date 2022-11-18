@@ -65,7 +65,8 @@ All in all, one can say that for simple problems have simple solutions.
 We have 4 false negatives, 46 true positives, 276 false positives, and 680 true negatives from our testing set.
 
 ### ROC-AUC (Area Under the Curve)
-![roc-auc_m2.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/roc-auc_m2.png)
+![roc-auc_m2.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/roc-auc_m2.png) 
+![optimal_thresh.png](https://github.com/jordanate/machine-learning-classification/blob/main/images/optimal_thresh.png)
 
 The AUC is 0.85 which is good in terms of the goals of our project. In other words, we maximized the true positive rate (recall) as much as possible while also keeping our false positive rate at an acceptable level.
 
