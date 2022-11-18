@@ -82,6 +82,14 @@ The AUC is 0.85, which is good in terms of the goals of our project. In other wo
 
 ## Conclusions
 
+### Recommendations
+
+Based on our project, we present The Mount Sinai Hospital with two key takeaways.
+
+First, we recommend that the hospital uses a logistic regression model as it proved to have the best classification of stroke risk and most effectively minimized both the false negative and false positive cases. In other words, the logistic regression model efficiently aided in both decreasing the misclassification of those patients who are categorized as not at risk of having a stroke during surgery when they actually are (false negative) as well as the misclassification of those patients who are categorized as at risk of having a stroke during surgery when they are not (false positive).
+
+This leads to the second key takeaway. By risking the loss of 2% in our recall score, we cut the false positive cases by more than half. As a result, we were able to decrease unwarranted additional screening, thus resulting in both unnecessary testing costs for the patients and a reduced volume of rejected insurance payments for unnecessary testing, which in the long term will improve the hospital's budgetary planning.
+
 ### Limitations
 
 While our machine learning classification project proved that it could correctly predict people at risk of stroke 94% of the time, we have no information on how effectively a medication can reduce the risk of stroke. In other words, identifying someone as 'at risk' for a stroke doesn't take into account how medication can reduce this risk.
