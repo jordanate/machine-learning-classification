@@ -107,7 +107,7 @@ As the information above is often associated with stroke risk, we would like to 
 ├── data
 ├── images
 ├── .gitignore
-├── Stroke Classification.pdf
+├── presentation.pdf
 ├── stroke-machine-learning-classification.ipynb
 └── README.md
 ```
