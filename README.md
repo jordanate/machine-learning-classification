@@ -1,4 +1,4 @@
-# Phase 3 Machine Learning Classification Project - Stroke Dataset
+# Stroke Risk During Surgery Classification
 
 ![brain-showing-stroke.jpeg](https://github.com/jordanate/machine-learning-classification/blob/main/images/brain-showing-stroke.jpeg)
 
