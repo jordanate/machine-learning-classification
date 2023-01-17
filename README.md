@@ -115,7 +115,8 @@ As the information above is often associated with stroke risk, we would like to 
 ├── data
 ├── images
 ├── .gitignore
+├── .jovianrc
+├── README.md
 ├── presentation.pdf
-├── stroke-machine-learning-classification.ipynb
-└── README.md
+└── stroke-risk-classification.ipynb 
 ```
